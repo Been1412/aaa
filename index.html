@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>포트폴리오</title>
+    <title>다이나믹</title>
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/splitting.css">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/splitting.min.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 <body>
-    <h1>PortFolio</h1>
-    <h2 id="h22">김영빈의 portfolio</h2>
+    <div class="inner">
+        <div class="tit">
+            <div data-splitting class="sale">SALES</div>
+            <div data-splitting class="info">INPORMATION</div>
+        </div>
+    </div>
 
-    <script src="./js/main.js"></script>
+    <div class="slidebox">
+        <ul class="slide">
+            <li><a href="#"><p class="img"><span><img src="./images/slide1.jpg" alt="이미지1"></span></p></a></li>
+            <li><a href="#"><p class="img"><span><img src="./images/slide2.jpg" alt="이미지2"></span></p></a></li>
+            <li><a href="#"><p class="img"><span><img src="./images/slide3.jpg" alt="이미지3"></span></p></a></li>
+            <li><a href="#"><p class="img"><span><img src="./images/slide4.jpg" alt="이미지4"></span></p></a></li>
+            <li><a href="#"><p class="img"><span><img src="./images/slide5.jfif" alt="이미지5"></span></p></a></li>
+            <li><a href="#"><p class="img"><span><img src="./images/slide6.jpg" alt="이미지6"></span></p></a></li>
+        </ul>
+    </div>
 </body>
 </html>
